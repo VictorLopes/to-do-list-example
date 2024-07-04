@@ -1,0 +1,46 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+
+  padding: 8px;
+  border: solid rgba(221, 221, 221, 0.56) 1px;
+  gap: 8px;
+
+  overflow: hidden;
+}
+
+.trash {
+  display: flex;
+}
+
+.trashIn {
+  display: flex;
+  align-items: flex-start;
+  animation-name: slideIn;
+  animation-duration: .180s;
+  min-height: 100%;
+  @keyframes slideIn {
+    from {margin-left: -20px;}
+    to {margin-left: 0;}
+  }
+}
+
+.trashOut {
+  display: flex;
+  align-items: flex-start;
+  animation-name: slideOut;
+  animation-duration: .180s;
+  min-height: 100%;
+  margin-left: -78px;
+  @keyframes slideOut {
+    from {margin-left: 0;}
+    to {margin-left: -80px;}
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .trash {
+    display: none;
+  }
+}
