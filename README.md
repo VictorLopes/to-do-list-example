@@ -43,3 +43,15 @@ All state is saving in real time on local storage, so the application state won'
 Though unit tests were not implemented for all components, there is an example created for `Button` component located at: `src/atoms/Button.test.tsx`
 
 ## Here are some screenshots and videos of this project
+
+### Desktop
+
+https://github.com/VictorLopes/to-do-list-example/assets/3814530/340c7c36-de8e-4823-9f01-ba2ee841bef8
+
+### Mobile
+
+https://github.com/VictorLopes/to-do-list-example/assets/3814530/f56a2225-82fb-4d02-a846-431e319dcf08
+
+### Unit test example
+
+![test](https://github.com/VictorLopes/to-do-list-example/assets/3814530/e80060ba-b03b-40ac-9b41-c462952286ca)
